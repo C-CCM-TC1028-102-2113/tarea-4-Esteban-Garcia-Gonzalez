@@ -4,7 +4,7 @@ def main():
     #Escribe tu código debajo de esta línea
     num= int(input("Escribe un numero : "))
     c=1
-    while c**2<num:
+    while c**2<=num:
         c=c+1
     print(c)
     pass
